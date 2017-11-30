@@ -19,6 +19,7 @@ haarcascade_frontalface_alt.xml
 
 
 Pasos para la instalación de Opencv
+
 Installing opencv 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 sudo apt-get update
