@@ -28,6 +28,7 @@ model.train(images, lables)
 
 # Part 2: Utilizar fisherRecognizer en funcionamiento la camara
 haar_cascade = cv2.CascadeClassifier(fn_haar)
+  #La variable host utilizada para ipcam
 host="http://192.168.0.6:8080/video"
 webcam = cv2.VideoCapture(host)
 while True:
@@ -54,7 +55,7 @@ while True:
   	      (x-10, y-10), cv2.FONT_HERSHEY_PLAIN,1,(0, 255, 0))
     #La variable cara tendra el nombre de la persona reconocida  
     cara = '%s' % (names[prediction[0]])
-    #Encender led en caso de que la cara se de miguel
+    #Encender led en caso de que la cara se de johan
     if cara == "johan":
         os.system("sudo ./encender_led.sh")
     #Si la cara es desconocida, poner desconocido

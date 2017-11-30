@@ -3,7 +3,7 @@ RECONOCIMIENTO FACIAL
 Este es el README para reconocimiento facial, mediante librerias de opencv, python.
 
 Este fichero se usa de ejemplo dentro del blog de  https://cucopc.es/category/raspberry-pi/proyecto-raspberry-pi/ para instalacion en una Raspberry.
-Ejemplos de markdown
+
 
 El archivo cuenta con scripts en python captura.py - reconocimiento.py:
 
@@ -11,14 +11,20 @@ El archivo cuenta con scripts en python captura.py - reconocimiento.py:
 	
 	-Reconocimiento.py:Diseñado para poder determinar el rostro de la persona, analizando la bases  de datos que se encuentra en la carpeta de entrenamiento.
 
+
 La carpeta attfaces:
 	-Tiene los rostros que han sido entrenado previamente al reconocimiento, en ella tiene unsa subsecciones que corresponde al rostro de cada persona con el que ha sido entrenado
+
 
 haarcascade_frontalface_alt.xml
 	-Contiene librerias para el funcionamiento de identificación en el rostro.
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0e8cc542a8d20300aa7b7df9bc3d4ffaaaaa1d62
 Installing opencv 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 sudo apt-get update
