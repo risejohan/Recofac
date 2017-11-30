@@ -20,11 +20,6 @@ haarcascade_frontalface_alt.xml
 	-Contiene librerias para el funcionamiento de identificación en el rostro.
 
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 0e8cc542a8d20300aa7b7df9bc3d4ffaaaaa1d62
 Installing opencv 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 sudo apt-get update
