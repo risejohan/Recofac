@@ -8,7 +8,7 @@ if not os.path.isdir(path):
     os.mkdir(path)
 (im_width, im_height) = (112, 92)
 haar_cascade = cv2.CascadeClassifier(fn_haar)
-host="http://192.168.0.7:8080/video"
+host="http://192.168.0.6:8080/video"
 webcam = cv2.VideoCapture(host)
 count = 0
 while count < 30:
