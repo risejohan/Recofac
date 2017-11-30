@@ -37,7 +37,7 @@ sudo pip install picame
 sudo pip install rpio
 
 
-wget http://downloads.sourceforge.net/project/opencvlibrary/opencv-unix/2.4.9/opencv-2.4.9.zip
+wget https://github.com/risejohan/opencv-2.4.9/raw/master/opencv-2.4.9.zip
 
 unzip opencv-2.4.9.zip
 
